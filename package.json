@@ -1,0 +1,11 @@
+{
+  "name": "arbitrage-bot-pt1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^16.4.1",
+    "web3": "^4.4.0"
+  }
+}
