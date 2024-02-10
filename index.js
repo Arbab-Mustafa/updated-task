@@ -84,7 +84,7 @@ async function approveSpender(){
     await web3.eth
     .sendSignedTransaction(signedTransaction.rawTransaction)
     .then(console.log("Dai Spending Approved"))
-    await awaitTransaction(signedTransaction.transactioHash);
+    await awaitTransaction(signedTransaction.transactionHash);
     await executeSwap();
   } catch (error) {
     console.log("There Was An Error",error);
