@@ -61,7 +61,7 @@ async function awaitTransaction(tx) {
       wait(2000);
     });
   } while (receipt === null);
-  console.log(`Transactions went successfull: ${receipt.transactioHash}`);
+  console.log(`Transactions went successfull: ${receipt.transactionHash}`);
   return receipt.status;
 }
 
